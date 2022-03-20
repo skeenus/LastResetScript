@@ -1,4 +1,4 @@
--- made by Skeen#0623
+--by Skeen version 3
 
 local f44 = Instance.new("ScreenGui")
 local mf = Instance.new("Frame")
@@ -39,7 +39,7 @@ f44.Parent = game.CoreGui
 
 mf.Name = "mf"
 mf.Parent = f44
-mf.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+mf.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
 mf.Position = UDim2.new(0.282251745, 0, 0.242610276, 0)
 mf.Size = UDim2.new(0.487099349, 0, 0.514661133, 0)
 mf.Active = true
@@ -253,7 +253,7 @@ TextLabel_6.TextWrapped = true
 
 -- Scripts:
 
-local function SXJGB_fake_script() -- TextButton.LocalScript 
+local function FIEQOI_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click: Connect(function()
@@ -265,8 +265,8 @@ local function SXJGB_fake_script() -- TextButton.LocalScript
 		print("Giving all weapons")
 	end)
 end
-coroutine.wrap(SXJGB_fake_script)()
-local function YMUIIC_fake_script() -- TextButton_2.b3256a 
+coroutine.wrap(FIEQOI_fake_script)()
+local function VOGOSEU_fake_script() -- TextButton_2.b3256a 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click: Connect(function()
@@ -284,16 +284,16 @@ local function YMUIIC_fake_script() -- TextButton_2.b3256a
 		print("Autokill active")
 	end)
 end
-coroutine.wrap(YMUIIC_fake_script)()
-local function XCUIZQQ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(VOGOSEU_fake_script)()
+local function ITKM_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click: Connect(function()
 	
 	end)
 end
-coroutine.wrap(XCUIZQQ_fake_script)()
-local function BYRI_fake_script() -- mf.LocalScript 
+coroutine.wrap(ITKM_fake_script)()
+local function TTOW_fake_script() -- mf.LocalScript 
 	local script = Instance.new('LocalScript', mf)
 
 	player = game.Players.LocalPlayer
@@ -308,4 +308,4 @@ local function BYRI_fake_script() -- mf.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BYRI_fake_script)()
+coroutine.wrap(TTOW_fake_script)()
