@@ -1,0 +1,311 @@
+-- made by Skeen#0623
+
+local f44 = Instance.new("ScreenGui")
+local mf = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local gaw = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local aknpc = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local gaw_2 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+f44.Name = "f44"
+f44.Parent = game.CoreGui
+
+mf.Name = "mf"
+mf.Parent = f44
+mf.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+mf.Position = UDim2.new(0.282251745, 0, 0.242610276, 0)
+mf.Size = UDim2.new(0.487099349, 0, 0.514661133, 0)
+mf.Active = true
+mf.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = mf
+
+ImageLabel.Parent = mf
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, 0.148760334, 0)
+ImageLabel.Size = UDim2.new(0.999999881, 0, 0.0132330237, 0)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+ImageLabel.ImageTransparency = 1.000
+
+TextLabel.Parent = mf
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(1, 0, 0.148760334, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "S-A-N-S-I-S-G-A-Y"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+gaw.Name = "gaw"
+gaw.Parent = mf
+gaw.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+gaw.BorderSizePixel = 0
+gaw.Position = UDim2.new(0.0131578259, 0, 0.190678895, 0)
+gaw.Size = UDim2.new(0.971491337, 0, 0.146150529, 0)
+
+TextLabel_2.Parent = gaw
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0212802514, 0, 0.0163951125, 0)
+TextLabel_2.Size = UDim2.new(0.883336246, 0, 0.983604014, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Get all weapons"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint.Parent = TextLabel_2
+UITextSizeConstraint.MaxTextSize = 40
+
+UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.Parent = gaw
+
+TextButton.Parent = gaw
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 0.740
+TextButton.Position = UDim2.new(0.919561565, 0, 0.101390563, 0)
+TextButton.Size = UDim2.new(0.0673613623, 0, 0.792364538, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = TextButton
+
+ImageLabel_2.Parent = TextButton
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Size = UDim2.new(1, 0, 1, 0)
+ImageLabel_2.Image = "rbxassetid://9149009021"
+ImageLabel_2.ImageColor3 = Color3.fromRGB(95, 95, 95)
+ImageLabel_2.ImageTransparency = 1.000
+ImageLabel_2.ScaleType = Enum.ScaleType.Crop
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = ImageLabel_2
+
+aknpc.Name = "aknpc"
+aknpc.Parent = mf
+aknpc.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+aknpc.BorderSizePixel = 0
+aknpc.Position = UDim2.new(0.0131578259, 0, 0.358377665, 0)
+aknpc.Size = UDim2.new(0.971491337, 0, 0.146150529, 0)
+
+TextLabel_3.Parent = aknpc
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0212802514, 0, 0.016395092, 0)
+TextLabel_3.Size = UDim2.new(0.883336246, 0, 0.983604014, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Autokill NPC'S"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_2.Parent = TextLabel_3
+UITextSizeConstraint_2.MaxTextSize = 40
+
+UICorner_5.CornerRadius = UDim.new(0, 6)
+UICorner_5.Parent = aknpc
+
+TextButton_2.Parent = aknpc
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 0.740
+TextButton_2.Position = UDim2.new(0.919561565, 0, 0.101390563, 0)
+TextButton_2.Size = UDim2.new(0.0673613623, 0, 0.792364538, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = TextButton_2
+
+ImageLabel_3.Parent = TextButton_2
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Size = UDim2.new(1, 0, 1, 0)
+ImageLabel_3.Image = "rbxassetid://9149009021"
+ImageLabel_3.ImageColor3 = Color3.fromRGB(95, 95, 95)
+ImageLabel_3.ImageTransparency = 1.000
+ImageLabel_3.ScaleType = Enum.ScaleType.Crop
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = ImageLabel_3
+
+TextLabel_4.Parent = mf
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.920797586, 0)
+TextLabel_4.Size = UDim2.new(1, 0, 0.0788786933, 0)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "    Made by Skeen#0623"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeTransparency = 0.000
+TextLabel_4.TextWrapped = true
+
+gaw_2.Name = "gaw"
+gaw_2.Parent = mf
+gaw_2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+gaw_2.BorderSizePixel = 0
+gaw_2.Position = UDim2.new(0.0131578259, 0, 0.527489245, 0)
+gaw_2.Size = UDim2.new(0.971491337, 0, 0.146150529, 0)
+
+TextLabel_5.Parent = gaw_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0212802514, 0, -0.00555294752, 0)
+TextLabel_5.Size = UDim2.new(0.883336246, 0, 0.983604014, 0)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Autofarm (W.I.P)"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeTransparency = 0.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_3.Parent = TextLabel_5
+UITextSizeConstraint_3.MaxTextSize = 40
+
+UICorner_8.CornerRadius = UDim.new(0, 6)
+UICorner_8.Parent = gaw_2
+
+TextButton_3.Parent = gaw_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 0.740
+TextButton_3.Position = UDim2.new(0.919561565, 0, 0.101390563, 0)
+TextButton_3.Size = UDim2.new(0.0673613623, 0, 0.792364538, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = TextButton_3
+
+ImageLabel_4.Parent = TextButton_3
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Size = UDim2.new(1, 0, 1, 0)
+ImageLabel_4.Image = "rbxassetid://9149009021"
+ImageLabel_4.ImageColor3 = Color3.fromRGB(95, 95, 95)
+ImageLabel_4.ImageTransparency = 1.000
+ImageLabel_4.ScaleType = Enum.ScaleType.Crop
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = ImageLabel_4
+
+TextLabel_6.Parent = mf
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.84210521, 0, 0.019429069, 0)
+TextLabel_6.Size = UDim2.new(0.157894731, 0, 0.107748166, 0)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Press p to open/close"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextWrapped = true
+
+-- Scripts:
+
+local function SXJGB_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click: Connect(function()
+		script.Parent.ImageLabel.ImageTransparency = 0
+		for i,v in pairs(game.Players.LocalPlayer.Weapons:GetChildren()) do
+			v.Value = true
+		end
+		wait(3)
+		print("Giving all weapons")
+	end)
+end
+coroutine.wrap(SXJGB_fake_script)()
+local function YMUIIC_fake_script() -- TextButton_2.b3256a 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click: Connect(function()
+		script.Parent.ImageLabel.ImageTransparency = 0
+		_G.toggle = true
+	
+		while _G.toggle and wait(0.7) do
+			for i, v in pairs(game.Workspace:GetDescendants()) do
+				if v.Name == "Head" and v.Parent.Parent.Name == "Stuff" then
+					v:Destroy()
+				end
+			end
+		end
+		wait(3)
+		print("Autokill active")
+	end)
+end
+coroutine.wrap(YMUIIC_fake_script)()
+local function XCUIZQQ_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click: Connect(function()
+	
+	end)
+end
+coroutine.wrap(XCUIZQQ_fake_script)()
+local function BYRI_fake_script() -- mf.LocalScript 
+	local script = Instance.new('LocalScript', mf)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "p" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "p" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(BYRI_fake_script)()
